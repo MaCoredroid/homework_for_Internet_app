@@ -9,7 +9,7 @@ for example: 0 0 4<br>
 Denots a circle whose center is (0,0) with radius as 4<br>
 Therefore, the `area` of this circle is `16π` <br>
 
-implementation
+Implementation:
 --------------
 ```java
 private static boolean is_in_the_circle(double i, double j, ArrayList<circle> circles)
