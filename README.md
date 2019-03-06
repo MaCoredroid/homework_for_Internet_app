@@ -39,3 +39,8 @@ Then the precision of `x` and `y` is 2.<br>
 Let's suppose the left `limit` is 1, the right `limit` is 2 <br>
 Then the `x` of given point is 1.01 1.02 1.03........ 1.99 2.00<br>
 `In this way, the calculation is fast and quite precise.`<br>
+
+
+Overlapcircle.pdf gives a whole picture of the problem
+-----------------------------------------------------
+I will see the JUnit and Gradle later.
