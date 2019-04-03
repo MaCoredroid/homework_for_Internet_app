@@ -9,7 +9,6 @@ Walking through the homepage, it is definitely that they have put too musch thin
 Actually they could put them into several pages and make the homepage a bit more skinny.
 ![Capture1.png](/task1/image/Capture1.png)
 It seems that the structure of resouce files is quite reasonable
-[![Capture2.png](/task1/image/Capture2.png)
 The website also concerns compatible issus with some other broswers, which is quite considerate.
 [![Capture3.png](/task1/image/Capture3.png)
 #### Comparion and suggestions
