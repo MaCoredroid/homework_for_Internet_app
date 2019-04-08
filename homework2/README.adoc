@@ -1,7 +1,0 @@
-Use  Thymeleaf to make a form
-
-
-
-Just open the IDEA and use the pom.xml inside the complete folder to import the project
-+++++++++++++++++++++++++++
-I will change it into submit a text file tomorrow
