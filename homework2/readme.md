@@ -2,10 +2,11 @@
 Use pom.xml to build the marven project with Intellj IDEA
 
 After the spring boot is running, use broswer to visit http://localhost:8080/
-Compute the total area covered by given circles
-=============================================
-Input format:
-----------
+
+### Compute the total area covered by given circles
+
+#### Input format:
+
 x1 y1 r1<br>
 x2 y2 r2<br>
 in `txt` file <br>
