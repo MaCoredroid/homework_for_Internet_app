@@ -1,8 +1,7 @@
-package hello;
-
+import java.io.IOException;
+import java.nio.file.Paths;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-
+import java.util.*;
 class circle
 {
 
@@ -31,75 +30,10 @@ class limit
     public double up;
     public double down;
 }
-public class Greeting {
 
-    private long x1;
-    private long y1;
-    private long r1;
-    private long x2;
-    private long y2;
-    private long r2;
-    private long x3;
-    private long y3;
-    private long r3;
-    public double area =0;
+public class overlapcircles {
 
 
-    public long getx1() {
-        return x1;
-    }
-    public long getx2() {
-        return x2;
-    }
-    public long getx3() {
-        return x3;
-    }
-    public long gety1() {
-        return y1;
-    }
-    public long gety2() {
-        return y2;
-    }
-    public long gety3() {
-        return y3;
-    }
-    public long getr1() {
-        return r1;
-    }
-    public long getr2() {
-        return r2;
-    }
-    public long getr3() {
-        return r3;
-    }
-    public void setx1(long x1) {
-        this.x1 = x1;
-    }
-    public void setx2(long x2) {
-        this.x2 = x2;
-    }
-    public void setx3(long x3) {
-        this.x3 = x3;
-    }
-    public void sety1(long y1) {
-        this.y1 = y1;
-    }
-    public void sety2(long y2) {
-        this.y2 =y2;
-    }
-    public void sety3(long y3) {
-        this.y3 =y3;
-    }
-    public void setr1(long r1) {
-        this.r1 =r1;
-    }
-    public void setr2(long r2) {
-        this.r2 = r2;
-    }
-    public void setr3(long r3) {
-        this.r3 =r3;
-    }
-    ArrayList<circle> circles = new ArrayList<circle>();
     private static boolean is_in_the_circle(double i, double j, ArrayList<circle> circles)
     {
         for (int p = 0; p < circles.size(); p++)
@@ -135,19 +69,24 @@ public class Greeting {
         limit ans=new limit(alimit.left,alimit.right,alimit.up,alimit.down);
         return ans;
     }
-    public void calculate()
-    {
-        circle temp1= new circle(x1, y1, r1);
-        circles.add(temp1);
-        circle temp2= new circle(x2, y2, r2);
-        circles.add(temp2);
-        circle temp3= new circle(x3, y3, r3);
-        circles.add(temp3);
+    public static void main(String[] args) throws IOException {
+        ArrayList<circle> circles = new ArrayList<circle>();
+        Scanner in = new Scanner(Paths.get("./src/circles.txt"), "UTF-8");
+        while(in.hasNext())
+        {
+            double x = in.nextDouble();
+            double y = in.nextDouble();
+            double r= in.nextDouble();
+            circle temp= new circle(x, y, r);
+            circles.add(temp);
+        }
         limit zero=new limit(0,0,0,0);
         limit real=new limit(0,0,0,0);
         real=square(zero,circles);
         System.out.printf("Please input precision");
-        int precision = 4;
+        int precision = 0;
+        Scanner input = new Scanner(System.in);
+        precision=input.nextInt();
         int precise = precision / 2;
         double count = 0;
         double temp=Math.pow(10,(-1)*precise);
@@ -164,11 +103,8 @@ public class Greeting {
 
             }
         }
-
-        area=count*temp*temp;
+        DecimalFormat df = new DecimalFormat();
+        df.setMaximumFractionDigits(precision);
+        System.out.print(df.format(count*temp*temp));
     }
-
-
-
-
 }
