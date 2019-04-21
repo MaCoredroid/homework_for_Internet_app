@@ -15,7 +15,11 @@ It is quite clear that the memory usage has a sudden increase , but cpu usage re
 It can be seem that both cpu and memory usage has a sudden increase.
 [![5.png](https://i.postimg.cc/XNtrfT3D/5.png)](https://postimg.cc/QVkNsYFp)
 [![6.png](https://i.postimg.cc/TYmpCC32/6.png)](https://postimg.cc/0bkkNGSh)
-
+#### Send 750 get requests at the same time
+This is a disaster, the cpu usage has come to a very sharp point.
+[![7.png](https://i.postimg.cc/nVmFJMb0/7.png)](https://postimg.cc/HjpD0YLy)
+[![8.png](https://i.postimg.cc/sDRVDy3y/8.png)](https://postimg.cc/SjD0DBXt)
+*In this kind of demanding requests, it seems that cpu usage is the major problem.
 
 
 
