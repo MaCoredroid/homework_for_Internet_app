@@ -48,6 +48,10 @@
             <artifactId>javamelody-spring-boot-starter</artifactId>
             <version>1.77.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
     </dependencies>
 
     <properties>
