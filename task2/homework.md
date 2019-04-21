@@ -1,4 +1,5 @@
 ### Resources consumption of REST service
+*If the pictures can't be displayed properly, use shadowsocks to fix it*<br>
 At first I tried prometheus , which is an end point of Spring Boot actuator, but <br>
 it just gave me a bunch of information, but I'd rather prefer charts.<br>
 [![2.png](https://i.postimg.cc/zfr4ZXNH/2.png)](https://postimg.cc/Wd550Vhs)
@@ -8,9 +9,12 @@ Fotunately, I found YourKit Java profiler. <br>
 I send the request with jmeter. <br>
 [![3.png](https://i.postimg.cc/Fz7BgYy8/3.png)](https://postimg.cc/sGCm3D04)
 #### Send 50 get requests at the same time:
-It is quite clear that the memory usage has a sudden increase 
+It is quite clear that the memory usage has a sudden increase , but cpu usage remains the same
 [![4.png](https://i.postimg.cc/htgNNtcz/4.png)](https://postimg.cc/HVZSyHJd)
-
+#### Send 250 get requests at the same time:
+It can be seem that both cpu and memory usage has a sudden increase.
+[![5.png](https://i.postimg.cc/XNtrfT3D/5.png)](https://postimg.cc/QVkNsYFp)
+[![6.png](https://i.postimg.cc/TYmpCC32/6.png)](https://postimg.cc/0bkkNGSh)
 
 
 
