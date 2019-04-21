@@ -19,7 +19,9 @@ It can be seem that both cpu and memory usage has a sudden increase.
 This is a disaster, the cpu usage has come to a very sharp point.
 [![7.png](https://i.postimg.cc/nVmFJMb0/7.png)](https://postimg.cc/HjpD0YLy)
 [![8.png](https://i.postimg.cc/sDRVDy3y/8.png)](https://postimg.cc/SjD0DBXt)
-*In this kind of demanding requests, it seems that cpu usage is the major problem.
+*In this kind of demanding requests, it seems that cpu usage is the major problem.*<br>
+*It is quite interseting that the memory usage doesn't come down at once just like the cpu usage*<br>
+*Maybe that's because it is a process to collect memory back and taht takes time. *<br>
 
 
 
