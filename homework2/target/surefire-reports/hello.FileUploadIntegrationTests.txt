@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: hello.FileUploadIntegrationTests
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.382 s <<< FAILURE! - in hello.FileUploadIntegrationTests
-shouldUploadFile(hello.FileUploadIntegrationTests)  Time elapsed: 0.461 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[302 FOUND]> but was:<[500 INTERNAL_SERVER_ERROR]>
-	at hello.FileUploadIntegrationTests.shouldUploadFile(FileUploadIntegrationTests.java:49)
-
