@@ -1,4 +1,5 @@
 #### Docker first attempt
+First install docker following the document https://docs.docker.com/ <br>
 In command line, just type in <br>
 Run this command in your favourite shell <br>
 `sudo usermod -a -G docker $USER`<br>
