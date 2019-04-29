@@ -5,6 +5,7 @@ Run this command in your favourite shell <br>
 `sudo usermod -a -G docker $USER`<br>
 And then completely log out of your account and log back in (if in doubt, reboot!):<br>
 Just type in `docker run -p 8080:8080 macoredroid/task3:firstattempt` <br>
+Alternatively,`docker pull macoredroid/task3`<br>
 Or visit `https://hub.docker.com/r/macoredroid/task3`<br>
 Then use broswer to go to http://localhost:8080/ <br>
 The restful service is right there.
