@@ -1,7 +1,0 @@
-GET http://localhost:8080/actuator/threaddump
-Accept: application/vnd.spring-boot.actuator.v2+json
-
-<> 2019-04-21T094504.401.json
-
-###
-
