@@ -11,8 +11,11 @@ Just type in `docker run -p 8081:8081 macoredroid/calculate:one` <br>
 Alternatively,`docker pull macoredroid/calculate:one`<br>
 Or visit `https://hub.docker.com/r/macoredroid/calculate`<br>
 Then use broswer to go to http://localhost:8080/ to visit Eureka control panel <br>
-#### username:admin password:pwd
+Username:admin Password:pwd
 Then use broswer to go to http://localhost:8081/ to visit calculate overlapped circles <br>
+#### Result:
+[![Capture.png](https://i.postimg.cc/Y9BLpRNk/Capture.png)](https://postimg.cc/HJ3kzQPP)
+[![Capture1.png](https://i.postimg.cc/7YtCCw1K/Capture1.png)](https://postimg.cc/qznBSf5K)
 #### Input format:
 
 x1 y1 r1<br>
