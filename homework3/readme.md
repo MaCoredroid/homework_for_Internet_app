@@ -10,6 +10,16 @@ Or visit `https://hub.docker.com/r/macoredroid/gateway`<br>
 Just type in `docker run -p 8081:8081 macoredroid/calculate:one` <br>
 Alternatively,`docker pull macoredroid/calculate:one`<br>
 Or visit `https://hub.docker.com/r/macoredroid/calculate`<br>
-Then use broswer to go to http://localhost:8080/ <br>
+Then use broswer to go to http://localhost:8080/ to visit Eureka control panel <br>
+#### username:admin password:pwd
+Then use broswer to go to http://localhost:8081/ to visit calculate overlapped circles <br>
+#### Input format:
+
+x1 y1 r1<br>
+x2 y2 r2<br>
+in `txt` file <br>
+for example: 0 0 4<br>
+Denots a circle whose center is (0,0) with radius as 4<br>
+Therefore, the `area` of this circle is `16π` <br>
 The restful service is right there.
 #### Author:517021910070
