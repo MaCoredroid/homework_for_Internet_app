@@ -16,16 +16,6 @@ Then use broswer to go to http://localhost:8081/ to visit calculate overlapped c
 #### Result:
 [![Capture.png](https://i.postimg.cc/Y9BLpRNk/Capture.png)](https://postimg.cc/HJ3kzQPP)
 [![Capture1.png](https://i.postimg.cc/7YtCCw1K/Capture1.png)](https://postimg.cc/qznBSf5K)
-#### Input format:
-
-x1 y1 r1<br>
-x2 y2 r2<br>
-in `txt` file <br>
-for example: 0 0 4<br>
-Denots a circle whose center is (0,0) with radius as 4<br>
-Therefore, the `area` of this circle is `16π` <br>
-The restful service is right there.
-
 #### Caution
 Always run gateway before other services!<br>
 I tested it in another virtual debian, and the command works.<br>
