@@ -25,4 +25,12 @@ for example: 0 0 4<br>
 Denots a circle whose center is (0,0) with radius as 4<br>
 Therefore, the `area` of this circle is `16π` <br>
 The restful service is right there.
+
+#### Caution
+I tested it in another virtual debian, and the command works.<br>
+However, if the client failed to register to the Eureka.<br>
+You can change https://github.com/MaCoredroid/homework_for_Internet_app/blob/master/homework3/gateway/demo/src/main/resources/application.properties<br>
+eureka.client.service-url.defaultZone=http://admin:pwd@**ip of Eureka,which will be shown in the control panel**:8080/eureka<br>
+In my example, the **localhost** was changed to **172.17.0.2**
+
 #### Author:517021910070
