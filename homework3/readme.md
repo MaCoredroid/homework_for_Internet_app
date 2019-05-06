@@ -27,6 +27,7 @@ Therefore, the `area` of this circle is `16π` <br>
 The restful service is right there.
 
 #### Caution
+Always run gateway before other services!<br>
 I tested it in another virtual debian, and the command works.<br>
 However, if the client failed to register to the Eureka.<br>
 You can change https://github.com/MaCoredroid/homework_for_Internet_app/blob/master/homework3/calculate/demo/src/main/resources/application.properties<br>
