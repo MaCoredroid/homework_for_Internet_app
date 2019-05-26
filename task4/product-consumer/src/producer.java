@@ -1,11 +1,14 @@
 import java.sql.Timestamp;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
-public class producer {
+public class producer extends TimerTask {
     private int threshold;
     private int timeout;
+    private Timer alarm;
     private List<consumer> container;
-    public producer(int threshold,int timeout)
+    public producer (int threshold,int timeout)
     {
         this.threshold=threshold;
         this.timeout=timeout;
@@ -20,4 +23,13 @@ public class producer {
         return container.size();
     }
 
+    @Override
+    public void run()
+    {
+        
+        if(container.size()>threshold)
+        {
+
+        }
+    }
 }
